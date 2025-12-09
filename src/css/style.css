@@ -30,18 +30,53 @@ a:hover{
     text-align: center;
 }
 
-img {
-    display: block;
-    width: 300px;
-    height: 280px;
-    margin: auto;
+.ficha-personaje{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    background-color: black/*rgba(30, 35, 40, 0.8)*/;
+    border: 1px solid #cda45e;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);;
+}
+
+.imagen-personaje img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #cda45e;
+   
+}
+
+.info-personaje{
+    flex: 1;
+}
+
+.info-personaje h2{
+    margin-top: 0;
+    color:#cda45e;
+}
+
+.datos-personaje{
+    list-style: none;
+    padding-left: 0;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+.datos-personaje li {
+    margin-bottom: 5px;
 }
 
 li{
     font-size: 18px;
 }
 
-div{
+.Comunidad {
     background-color: #1c5d99;
     display: block;
     width: 50%;
