@@ -35,7 +35,7 @@ a:hover{
     flex-direction: row;
     align-items: center;
     gap: 30px;
-    background-color: black/*rgba(30, 35, 40, 0.8)*/;
+    background-color: black;
     border: 1px solid #cda45e;
     padding: 20px;
     margin-bottom: 30px;
@@ -70,11 +70,10 @@ a:hover{
 
 .datos-personaje li {
     margin-bottom: 5px;
-}
-
-li{
     font-size: 18px;
 }
+
+
 
 .Comunidad {
     background-color: #1c5d99;
