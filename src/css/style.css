@@ -53,7 +53,7 @@ a:hover{
 }
 
 .info-personaje{
-    flex: 1;
+    flex-grow: 1;
 }
 
 .info-personaje h2{
